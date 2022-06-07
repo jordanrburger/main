@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "date_from": "1 month ago",
+    "date_range": "Custom",
+    "date_to": "1 day ago",
+    "domain": "www.ascendclimbing.com",
+    "endpoint": "Search analytics",
+    "filter_groups": [],
+    "loading_options": {
+      "incremental": 0
+    },
+    "out_table_name": "raw_search_console",
+    "search_analytics_dimensions": "page, query, country, date",
+    "search_type": "web"
+  }
+}

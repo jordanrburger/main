@@ -1,0 +1,139 @@
+{
+  "parameters": {
+    "tableId": "out.c-wr-dWcDjVBO.ga_demographic_audience",
+    "dbName": "ga_demographic_audience",
+    "incremental": false,
+    "primaryKey": [],
+    "items": [
+      {
+        "name": "ga_date",
+        "dbName": "ga:date",
+        "type": "date",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      },
+      {
+        "name": "ga_userAgeBracket",
+        "dbName": "ga:userAgeBracket",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_userGender",
+        "dbName": "ga:userGender",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_interestAffinityCategory",
+        "dbName": "ga:interestAffinityCategory",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_channelGrouping",
+        "dbName": "ga:channelGrouping",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_userType",
+        "dbName": "ga:userType",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_source",
+        "dbName": "ga:source",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_medium",
+        "dbName": "ga:medium",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_sessions",
+        "dbName": "ga:sessions",
+        "type": "integer",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      },
+      {
+        "name": "ga_users",
+        "dbName": "ga:users",
+        "type": "integer",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      },
+      {
+        "name": "ga_bounces",
+        "dbName": "ga:bounces",
+        "type": "integer",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      },
+      {
+        "name": "ga_sessionDuration",
+        "dbName": "ga:sessionDuration",
+        "type": "double",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      },
+      {
+        "name": "ga_pageviews",
+        "dbName": "ga:pageviews",
+        "type": "double",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      }
+    ]
+  },
+  "storage": {
+    "input": {
+      "tables": [
+        {
+          "source": "out.c-wr-dWcDjVBO.ga_demographic_audience",
+          "destination": "out.c-wr-dWcDjVBO.ga_demographic_audience.csv",
+          "columns": [
+            "ga_date",
+            "ga_userAgeBracket",
+            "ga_userGender",
+            "ga_interestAffinityCategory",
+            "ga_channelGrouping",
+            "ga_userType",
+            "ga_source",
+            "ga_medium",
+            "ga_sessions",
+            "ga_users",
+            "ga_bounces",
+            "ga_sessionDuration",
+            "ga_pageviews"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Extraction: Google Search Console",
+  "dependsOn": [
+    "001-extraction-google-analytics"
+  ]
+}

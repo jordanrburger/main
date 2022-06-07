@@ -1,0 +1,49 @@
+{
+  "parameters": {
+    "dbName": "gsc_ranking",
+    "incremental": false,
+    "items": [
+      {
+        "dbName": "page",
+        "default": "",
+        "name": "page",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "gsc_date",
+        "default": "",
+        "name": "gsc_date",
+        "nullable": true,
+        "size": "",
+        "type": "date"
+      },
+      {
+        "dbName": "gsc_average_ranking",
+        "default": "",
+        "name": "gsc_average_ranking",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      }
+    ],
+    "primaryKey": [],
+    "tableId": "out.c-bdm-tW8B3TFt.gsc_ranking"
+  },
+  "storage": {
+    "input": {
+      "tables": [
+        {
+          "columns": [
+            "page",
+            "gsc_date",
+            "gsc_average_ranking"
+          ],
+          "destination": "out.c-bdm-tW8B3TFt.gsc_ranking.csv",
+          "source": "out.c-bdm-tW8B3TFt.gsc_ranking"
+        }
+      ]
+    }
+  }
+}

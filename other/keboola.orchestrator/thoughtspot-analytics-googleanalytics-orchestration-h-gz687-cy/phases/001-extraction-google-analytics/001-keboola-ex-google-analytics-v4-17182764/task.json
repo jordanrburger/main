@@ -1,0 +1,9 @@
+{
+  "name": "keboola.ex-google-analytics-v4-17182764",
+  "continueOnFailure": false,
+  "enabled": true,
+  "task": {
+    "mode": "run",
+    "configPath": "extractor/keboola.ex-google-analytics-v4/in-googleanalytics-extractor-h-gz687-cy"
+  }
+}

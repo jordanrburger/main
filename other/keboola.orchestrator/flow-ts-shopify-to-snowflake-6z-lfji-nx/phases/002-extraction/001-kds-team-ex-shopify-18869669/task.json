@@ -1,0 +1,9 @@
+{
+  "name": "kds-team.ex-shopify-18869669",
+  "continueOnFailure": false,
+  "enabled": true,
+  "task": {
+    "mode": "run",
+    "configPath": "extractor/kds-team.ex-shopify/data-source-in-ecomm-shopify-6z-lfji-nx"
+  }
+}

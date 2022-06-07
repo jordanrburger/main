@@ -1,0 +1,157 @@
+{
+  "parameters": {
+    "tableId": "out.c-wr-dWcDjVBO.ga_page_behaviour",
+    "dbName": "ga_page_behaviour",
+    "incremental": false,
+    "primaryKey": [],
+    "items": [
+      {
+        "name": "ga_date",
+        "dbName": "ga:date",
+        "type": "date",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      },
+      {
+        "name": "ga_hostname",
+        "dbName": "ga:hostname",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_pagePath",
+        "dbName": "ga:pagePath",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_landingPagePath",
+        "dbName": "ga:landingPagePath",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_secondPagePath",
+        "dbName": "ga:secondPagePath",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_exitPagePath",
+        "dbName": "ga:exitPagePath",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_pageTitle",
+        "dbName": "ga:pageTitle",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_source",
+        "dbName": "ga:source",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_country",
+        "dbName": "ga:country",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_sessions",
+        "dbName": "ga:sessions",
+        "type": "integer",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      },
+      {
+        "name": "ga_entrances",
+        "dbName": "ga:entrances",
+        "type": "integer",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      },
+      {
+        "name": "ga_pageviews",
+        "dbName": "ga:pageviews",
+        "type": "integer",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      },
+      {
+        "name": "ga_timeOnPage",
+        "dbName": "ga:timeOnPage",
+        "type": "double",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      },
+      {
+        "name": "ga_exits",
+        "dbName": "ga:exits",
+        "type": "integer",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      },
+      {
+        "name": "ga_pageValue",
+        "dbName": "ga:pageValue",
+        "type": "double",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      }
+    ]
+  },
+  "storage": {
+    "input": {
+      "tables": [
+        {
+          "source": "out.c-wr-dWcDjVBO.ga_page_behaviour",
+          "destination": "out.c-wr-dWcDjVBO.ga_page_behaviour.csv",
+          "columns": [
+            "ga_date",
+            "ga_hostname",
+            "ga_pagePath",
+            "ga_landingPagePath",
+            "ga_secondPagePath",
+            "ga_exitPagePath",
+            "ga_pageTitle",
+            "ga_source",
+            "ga_country",
+            "ga_sessions",
+            "ga_entrances",
+            "ga_pageviews",
+            "ga_timeOnPage",
+            "ga_exits",
+            "ga_pageValue"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parameters": {},
+  "storage": {
+    "input": {
+      "tables": [
+        {
+          "columns": [],
+          "destination": "raw_search_console",
+          "source": "{{:default-bucket:extractor/kds-team.ex-google-search-console/in-googleanalytics-searchconsole-extractor-h-gz687-cy}}.raw_search_console",
+          "where_column": "",
+          "where_operator": "eq",
+          "where_values": []
+        }
+      ]
+    },
+    "output": {
+      "tables": [
+        {
+          "delete_where_column": "",
+          "delete_where_operator": "eq",
+          "delete_where_values": [],
+          "destination": "out.c-bdm-hGz687CY.gsc_ranking",
+          "incremental": true,
+          "primary_key": [],
+          "source": "search_console_grouped_ranking"
+        }
+      ]
+    }
+  }
+}

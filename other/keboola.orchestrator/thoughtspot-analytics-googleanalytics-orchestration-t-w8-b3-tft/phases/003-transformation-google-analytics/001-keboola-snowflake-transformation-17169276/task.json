@@ -1,0 +1,9 @@
+{
+  "name": "keboola.snowflake-transformation-17169276",
+  "continueOnFailure": false,
+  "enabled": true,
+  "task": {
+    "mode": "run",
+    "configPath": "transformation/keboola.snowflake-transformation/in-googleanalytics-transformation-t-w8-b3-tft"
+  }
+}

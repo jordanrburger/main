@@ -1,0 +1,9 @@
+{
+  "name": "kds-team.ex-google-search-console-17182766",
+  "continueOnFailure": false,
+  "enabled": true,
+  "task": {
+    "mode": "run",
+    "configPath": "extractor/kds-team.ex-google-search-console/in-googleanalytics-searchconsole-extractor-h-gz687-cy"
+  }
+}

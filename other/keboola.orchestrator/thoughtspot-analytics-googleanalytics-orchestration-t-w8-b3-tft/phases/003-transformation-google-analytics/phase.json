@@ -1,0 +1,6 @@
+{
+  "name": "Transformation: Google Analytics",
+  "dependsOn": [
+    "002-extraction-google-search-console"
+  ]
+}

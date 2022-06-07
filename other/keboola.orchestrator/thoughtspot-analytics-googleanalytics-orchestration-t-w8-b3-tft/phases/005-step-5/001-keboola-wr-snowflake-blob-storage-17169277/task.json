@@ -1,0 +1,9 @@
+{
+  "name": "keboola.wr-snowflake-blob-storage-17169277",
+  "task": {
+    "mode": "run",
+    "configPath": "writer/keboola.wr-snowflake-blob-storage/out-googleanalytics-snowflake-writer-t-w8-b3-tft"
+  },
+  "continueOnFailure": false,
+  "enabled": true
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Transformation 3: Snapspot",
+  "dependsOn": [
+    "003-transformation-2-bdm-creation"
+  ]
+}

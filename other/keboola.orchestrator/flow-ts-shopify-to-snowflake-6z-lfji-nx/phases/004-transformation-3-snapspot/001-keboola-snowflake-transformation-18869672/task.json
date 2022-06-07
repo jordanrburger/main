@@ -1,0 +1,9 @@
+{
+  "name": "keboola.snowflake-transformation-18869672",
+  "continueOnFailure": false,
+  "enabled": true,
+  "task": {
+    "mode": "run",
+    "configPath": "transformation/keboola.snowflake-transformation/transformation3-rfm-analysis-in-ecomm-shopify-6z-lfji-nx"
+  }
+}

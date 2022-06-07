@@ -1,0 +1,6 @@
+{
+  "name": "Transformation: Google Search Console",
+  "dependsOn": [
+    "003-transformation-google-analytics"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "authorization": {
+    "oauth_api": {
+      "id": "17169275",
+      "version": 3
+    }
+  },
+  "parameters": {
+    "outputBucket": "in.c-kds-team-ex-google-analytics-17169275",
+    "profiles": [
+      {
+        "accountId": "47696947",
+        "webPropertyId": "UA-47696947-1",
+        "webPropertyName": "Ascend PGH",
+        "accountName": "ASCEND Pgh",
+        "name": "Master",
+        "id": "81700762"
+      }
+    ]
+  }
+}

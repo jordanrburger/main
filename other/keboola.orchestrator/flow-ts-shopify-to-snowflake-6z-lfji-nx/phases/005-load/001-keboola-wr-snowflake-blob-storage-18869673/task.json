@@ -1,0 +1,9 @@
+{
+  "name": "keboola.wr-snowflake-blob-storage-18869673",
+  "continueOnFailure": false,
+  "enabled": true,
+  "task": {
+    "mode": "run",
+    "configPath": "writer/keboola.wr-snowflake-blob-storage/data-destination-out-ecomm-snowflake-6z-lfji-nx"
+  }
+}

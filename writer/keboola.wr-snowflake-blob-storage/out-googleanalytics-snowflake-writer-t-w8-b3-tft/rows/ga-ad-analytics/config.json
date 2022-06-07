@@ -1,0 +1,177 @@
+{
+  "parameters": {
+    "dbName": "ga_ad_analytics",
+    "incremental": false,
+    "items": [
+      {
+        "dbName": "id_TBE",
+        "default": "",
+        "name": "id_TBE",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "ga_date",
+        "default": "",
+        "name": "ga_date",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "ga_adGroup",
+        "default": "",
+        "name": "ga_adGroup",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "ga_adContent",
+        "default": "",
+        "name": "ga_adContent",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "ga_adDistributionNetwork",
+        "default": "",
+        "name": "ga_adDistributionNetwork",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "ga_campaign",
+        "default": "",
+        "name": "ga_campaign",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "ga_adSlot",
+        "default": "",
+        "name": "ga_adSlot",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "ga_impressions",
+        "default": "",
+        "name": "ga_impressions",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "ga_adClicks",
+        "default": "",
+        "name": "ga_adClicks",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "ga_adCost",
+        "default": "",
+        "name": "ga_adCost",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "ga_CPM",
+        "default": "",
+        "name": "ga_CPM",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "ga_CPC",
+        "default": "",
+        "name": "ga_CPC",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "ga_transactionRevenue",
+        "default": "",
+        "name": "ga_transactionRevenue",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "ga_sessions",
+        "default": "",
+        "name": "ga_sessions",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "ga_bounces",
+        "default": "",
+        "name": "ga_bounces",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "ga_users",
+        "default": "",
+        "name": "ga_users",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      },
+      {
+        "dbName": "ga_pageviews",
+        "default": "",
+        "name": "ga_pageviews",
+        "nullable": true,
+        "size": "16777216",
+        "type": "varchar"
+      }
+    ],
+    "primaryKey": [
+      "id_TBE"
+    ],
+    "tableId": "out.c-wr-tW8B3TFt.ga_ad_analytics"
+  },
+  "storage": {
+    "input": {
+      "tables": [
+        {
+          "columns": [
+            "id_TBE",
+            "ga_date",
+            "ga_adGroup",
+            "ga_adContent",
+            "ga_adDistributionNetwork",
+            "ga_campaign",
+            "ga_adSlot",
+            "ga_impressions",
+            "ga_adClicks",
+            "ga_adCost",
+            "ga_CPM",
+            "ga_CPC",
+            "ga_transactionRevenue",
+            "ga_sessions",
+            "ga_bounces",
+            "ga_users",
+            "ga_pageviews"
+          ],
+          "destination": "out.c-wr-tW8B3TFt.ga_ad_analytics.csv",
+          "source": "out.c-wr-tW8B3TFt.ga_ad_analytics"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "parameters": {
+    "endpoint": "reports",
+    "outputTable": "raw_site_statistics",
+    "query": {
+      "dateRanges": [
+        {
+          "startDate": "-60 days",
+          "endDate": "-1 days"
+        }
+      ],
+      "dimensions": [
+        {
+          "name": "ga:hostname"
+        },
+        {
+          "name": "ga:pagePath"
+        },
+        {
+          "name": "ga:country"
+        },
+        {
+          "name": "ga:browser"
+        },
+        {
+          "name": "ga:operatingSystemVersion"
+        },
+        {
+          "name": "ga:deviceCategory"
+        },
+        {
+          "name": "ga:operatingSystem"
+        },
+        {
+          "name": "ga:language"
+        },
+        {
+          "name": "ga:dateHourMinute"
+        }
+      ],
+      "metrics": [
+        {
+          "expression": "ga:sessions"
+        },
+        {
+          "expression": "ga:pageviews"
+        },
+        {
+          "expression": "ga:avgPageLoadTime"
+        },
+        {
+          "expression": "ga:avgPageDownloadTime"
+        },
+        {
+          "expression": "ga:avgRedirectionTime"
+        },
+        {
+          "expression": "ga:avgServerConnectionTime"
+        },
+        {
+          "expression": "ga:serverResponseTime"
+        }
+      ],
+      "viewId": "81700762"
+    }
+  }
+}

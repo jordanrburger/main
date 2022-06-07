@@ -1,0 +1,168 @@
+{
+  "parameters": {
+    "dbName": "ga_page_behaviour",
+    "incremental": false,
+    "items": [
+      {
+        "dbName": "id_TBE",
+        "default": "",
+        "name": "id_TBE",
+        "nullable": false,
+        "size": "16777216",
+        "type": "string"
+      },
+      {
+        "dbName": "ga_date",
+        "default": "",
+        "name": "ga_date",
+        "nullable": false,
+        "size": "16777216",
+        "type": "string"
+      },
+      {
+        "dbName": "ga_hostname",
+        "default": "",
+        "name": "ga_hostname",
+        "nullable": false,
+        "size": "16777216",
+        "type": "string"
+      },
+      {
+        "dbName": "ga_pagePath",
+        "default": "",
+        "name": "ga_pagePath",
+        "nullable": false,
+        "size": "16777216",
+        "type": "string"
+      },
+      {
+        "dbName": "ga_landingPagePath",
+        "default": "",
+        "name": "ga_landingPagePath",
+        "nullable": false,
+        "size": "16777216",
+        "type": "string"
+      },
+      {
+        "dbName": "ga_secondPagePath",
+        "default": "",
+        "name": "ga_secondPagePath",
+        "nullable": false,
+        "size": "16777216",
+        "type": "string"
+      },
+      {
+        "dbName": "ga_exitPagePath",
+        "default": "",
+        "name": "ga_exitPagePath",
+        "nullable": false,
+        "size": "16777216",
+        "type": "string"
+      },
+      {
+        "dbName": "ga_pageTitle",
+        "default": "",
+        "name": "ga_pageTitle",
+        "nullable": false,
+        "size": "16777216",
+        "type": "string"
+      },
+      {
+        "dbName": "ga_source",
+        "default": "",
+        "name": "ga_source",
+        "nullable": false,
+        "size": "16777216",
+        "type": "string"
+      },
+      {
+        "dbName": "ga_country",
+        "default": "",
+        "name": "ga_country",
+        "nullable": false,
+        "size": "16777216",
+        "type": "string"
+      },
+      {
+        "dbName": "ga_sessions",
+        "default": "",
+        "name": "ga_sessions",
+        "nullable": false,
+        "size": "16777216",
+        "type": "string"
+      },
+      {
+        "dbName": "ga_entrances",
+        "default": "",
+        "name": "ga_entrances",
+        "nullable": false,
+        "size": "16777216",
+        "type": "string"
+      },
+      {
+        "dbName": "ga_pageviews",
+        "default": "",
+        "name": "ga_pageviews",
+        "nullable": false,
+        "size": "16777216",
+        "type": "string"
+      },
+      {
+        "dbName": "ga_timeOnPage",
+        "default": "",
+        "name": "ga_timeOnPage",
+        "nullable": false,
+        "size": "16777216",
+        "type": "string"
+      },
+      {
+        "dbName": "ga_exits",
+        "default": "",
+        "name": "ga_exits",
+        "nullable": false,
+        "size": "16777216",
+        "type": "string"
+      },
+      {
+        "dbName": "ga_pageValue",
+        "default": "",
+        "name": "ga_pageValue",
+        "nullable": false,
+        "size": "16777216",
+        "type": "string"
+      }
+    ],
+    "primaryKey": [
+      "id_TBE"
+    ],
+    "tableId": "out.c-wr-tW8B3TFt.ga_page_behaviour"
+  },
+  "storage": {
+    "input": {
+      "tables": [
+        {
+          "columns": [
+            "id_TBE",
+            "ga_date",
+            "ga_hostname",
+            "ga_pagePath",
+            "ga_landingPagePath",
+            "ga_secondPagePath",
+            "ga_exitPagePath",
+            "ga_pageTitle",
+            "ga_source",
+            "ga_country",
+            "ga_sessions",
+            "ga_entrances",
+            "ga_pageviews",
+            "ga_timeOnPage",
+            "ga_exits",
+            "ga_pageValue"
+          ],
+          "destination": "out.c-wr-tW8B3TFt.ga_page_behaviour.csv",
+          "source": "out.c-wr-tW8B3TFt.ga_page_behaviour"
+        }
+      ]
+    }
+  }
+}

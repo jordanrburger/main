@@ -1,0 +1,9 @@
+{
+  "name": "keboola.snowflake-transformation-18869670",
+  "continueOnFailure": false,
+  "enabled": true,
+  "task": {
+    "mode": "run",
+    "configPath": "transformation/keboola.snowflake-transformation/transformation1-prepare-input-tables-in-ecomm-shopify-6z-lfji-nx"
+  }
+}

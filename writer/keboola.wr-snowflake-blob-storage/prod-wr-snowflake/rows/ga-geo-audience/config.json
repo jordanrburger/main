@@ -1,0 +1,148 @@
+{
+  "parameters": {
+    "tableId": "out.c-wr-dWcDjVBO.ga_geo_audience",
+    "dbName": "ga_geo_audience",
+    "incremental": false,
+    "primaryKey": [],
+    "items": [
+      {
+        "name": "ga_date",
+        "dbName": "ga:date",
+        "type": "date",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      },
+      {
+        "name": "ga_country",
+        "dbName": "ga:country",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_region",
+        "dbName": "ga:region",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_latitude",
+        "dbName": "ga:latitude",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_longitude",
+        "dbName": "ga:longitude",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_channelGrouping",
+        "dbName": "ga:channelGrouping",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_userType",
+        "dbName": "ga:userType",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_source",
+        "dbName": "ga:source",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_medium",
+        "dbName": "ga:medium",
+        "type": "varchar",
+        "nullable": true,
+        "default": "",
+        "size": "16777216"
+      },
+      {
+        "name": "ga_sessions",
+        "dbName": "ga:sessions",
+        "type": "integer",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      },
+      {
+        "name": "ga_users",
+        "dbName": "ga:users",
+        "type": "integer",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      },
+      {
+        "name": "ga_bounces",
+        "dbName": "ga:bounces",
+        "type": "integer",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      },
+      {
+        "name": "ga_sessionDuration",
+        "dbName": "ga:sessionDuration",
+        "type": "double",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      },
+      {
+        "name": "ga_pageviews",
+        "dbName": "ga:pageviews",
+        "type": "double",
+        "nullable": true,
+        "default": "",
+        "size": ""
+      }
+    ]
+  },
+  "storage": {
+    "input": {
+      "tables": [
+        {
+          "source": "out.c-wr-dWcDjVBO.ga_geo_audience",
+          "destination": "out.c-wr-dWcDjVBO.ga_geo_audience.csv",
+          "columns": [
+            "ga_date",
+            "ga_country",
+            "ga_region",
+            "ga_latitude",
+            "ga_longitude",
+            "ga_channelGrouping",
+            "ga_userType",
+            "ga_source",
+            "ga_medium",
+            "ga_sessions",
+            "ga_users",
+            "ga_bounces",
+            "ga_sessionDuration",
+            "ga_pageviews"
+          ]
+        }
+      ]
+    }
+  }
+}
