@@ -1,0 +1,21 @@
+{
+  "parameters": {
+    "#api_token": "KBC::ProjectSecureKV::eJxLtDK2qs60MrIutjI0MrJSuveViWFWdKxf3/Q96YoPE6ZfssjdvFZlV3VLSVmz1Zm382bOYWYOZubi3G10J+cam4CX3DXNhMUdqswZn2sFl2Q0s98x+ZJme3NO175212OaffYLgvQ/r4tN7vudVt6Zde9Y0f2oR1wmzc89ji3u/NLXknY/ecm1vcpBJ3JEZhxUss60MgY6w8jMSik9NU83NS+5qLKgJL/IzMgy1cTQODnVwDIlFaTKBKjKGOhWQ8ski2RLU4skixRDE1Mz46TEFEtjI7NUcxNzw+REw0Ql61oAMm1X3w==",
+    "debug": false,
+    "endpoints": {
+      "customers": true,
+      "events": [],
+      "inventory": true,
+      "orders": true,
+      "product_metafields": false,
+      "products": true,
+      "variant_metafields": false
+    },
+    "loading_options": {
+      "date_since": "6 months ago",
+      "date_to": "1 day ago",
+      "incremental_output": 1
+    },
+    "shop": "keboola-sample-kbc data"
+  }
+}
